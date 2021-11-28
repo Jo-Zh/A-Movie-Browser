@@ -55,8 +55,8 @@ function App() {
             )
           }
         />
-
         <Route path="movies/:id" element={<MovieView />} />
+        <Route path="*" element={<NotFound/>} />
       </Routes>
     </div>
   );
