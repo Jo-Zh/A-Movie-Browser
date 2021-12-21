@@ -11,6 +11,7 @@ const Home = () => {
               Moviebrowser, a simple application allow your browser and search
               movies.
             </p>
+            { /*code source from https://www.freecodecamp.org/news/svg-tutorial-learn-to-code-images/ */}
             <svg
               class="gingerbread"
               width="200"
