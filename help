@@ -1,0 +1,27 @@
+Bootstrap:
+
+1. copy link and insert into index.html after <title></title> in order to use bootstrap in your project
+   https://getbootstrap.com/docs/5.1/getting-started/introduction/
+
+2. find component Navbar from bootstrap web, copy the codes put into your project.
+   https://getbootstrap.com/docs/5.1/components/navbar/
+/////////////////////////////////////////////////////////////
+Installing a React router:
+
+1. ^C (terminate the program, if not work goto terminal windows on your computer, and direct to !!current project direction!!);
+2. (run the command to check the version in your project) node -v
+3. (run the command to install rounter dome) npm install react-router-dom
+4. import import {BrowserRouter} from 'react-router-dom'; into index.js, and wrap <BrowserRouter><App /></BrowserRouter>
+//////////////////////////////////////////////////////////////
+Version change issues:
+
+Relative <Route path> and <Link to>
+https://reacttraining.com/blog/react-router-v6-pre/#relative-route-path-and-link-to
+
+Unlike the <Switch> API in v5, all <Route path> and <Link to> values under v6's <Routes> element are automatically relative to the parent route that rendered them. This makes it a lot easier to think about your React Router app as lots of small apps that are just stitched together at different "mount" points.
+//////////////////////////////////////////////////////////////////
+<Link to > </Link> replace <a href></a>
+
+//////////////////////////////////////////////////////////////////
+Another change of DOM 6v is useHistory() replaced by useNavigate(). so import { useNavigate } from 'react-router-dom'
+and const var_Name = useNavigate(), var_Name("directory_name")
